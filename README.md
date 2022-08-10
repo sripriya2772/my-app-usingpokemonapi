@@ -1,9 +1,0 @@
-# my-app
-# my-app
-# my-pokemonapiapp
-# my-pokemonapiapp
-# my-pokemonapiapp
-# my-app
-# my-assesment
-# my-assesment
-# my-assesment

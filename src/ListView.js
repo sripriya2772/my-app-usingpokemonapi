@@ -16,7 +16,7 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 
 
-const LIST_END_POINT = 'https://pokeapi.co/api/v2/pokemon?limit=1000&offset=0';
+const LIST_END_POINT = 'https://pokeapi.co/api/v2/pokemon?limit=100&offset=0';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
@@ -69,7 +69,7 @@ const ListView = () => {
     
     useEffect(() => {
         fetchData();
-        }, []);
+        },);
 
     const onCollapseChange = (rowId) => {
         setStatus(prevState => ({
